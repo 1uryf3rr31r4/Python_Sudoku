@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PycharmProjects/AerialNavigation/.idea/AerialNavigation.iml" filepath="$PROJECT_DIR$/../PycharmProjects/AerialNavigation/.idea/AerialNavigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PycharmProjects/Python_Repos/.idea/Python_Repos.iml" filepath="$PROJECT_DIR$/../PycharmProjects/Python_Repos/.idea/Python_Repos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Sudoku.iml" filepath="$PROJECT_DIR$/.idea/Sudoku.iml" />
     </modules>
   </component>

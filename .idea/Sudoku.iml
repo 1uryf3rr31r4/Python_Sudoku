@@ -6,5 +6,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Python_Repos" />
+    <orderEntry type="module" module-name="AerialNavigation" />
   </component>
 </module>
