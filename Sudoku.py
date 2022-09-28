@@ -73,6 +73,18 @@ def Celula_Selecionada(window, mouse_position_x, mouse_position_y, click_last_st
                      ajuste + y * quadrado, quadrado, quadrado)))
     return x, y
 
+def Tabuleiro(window):
+    pg.draw.rect(window, preto, (50, 50, 600, 600), 6)
+    pg.draw.rect(window, preto, (50, 250, 600, 200), 6)
+    pg.draw.rect(window, preto, (250, 50, 200, 600), 6)
+    pg.draw.rect(window, preto, (50, 117, 600, 67), 2)
+    pg.draw.rect(window, preto, (50, 317, 600, 67), 2)
+    pg.draw.rect(window, preto, (50, 517, 600, 67), 2)
+    pg.draw.rect(window, preto, (117, 50, 67, 600), 2)
+    pg.draw.rect(window, preto, (317, 50, 67, 600), 2)
+    pg.draw.rect(window, preto, (517, 50, 67, 600), 2)
+
+
 while True:
     for event in pg.event.get():
         if event.type == pg.QUIT:
@@ -94,6 +106,7 @@ while True:
     Tabuleiro_Hover(window, mouse_position_x, mouse_position_y)
     click_position_x, click_position_y = Celula_Selecionada(
         window, mouse_position_x, mouse_position_y, click_last_status, click[0], click_position_x, click_position_y)
+    Tabuleiro(window)
 
     # Click Last Status
     if click[0] == True:
